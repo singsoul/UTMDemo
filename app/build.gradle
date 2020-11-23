@@ -45,4 +45,5 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.51"
     implementation "org.jetbrains.anko:anko-sqlite:0.10.5"
     implementation 'com.scottyab:secure-preferences-lib:0.1.7'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
 }
