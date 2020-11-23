@@ -41,10 +41,10 @@ public class MyApp extends Application implements ITrackerContext {
         super.onCreate();
         //设置应⽤渠道名，⼀般定义在AndroidManifest.xml中
         Tracker.INSTANCE.channelId = "mkbd"; //设置你的渠道
-        //设置应⽤名，可以⽤应⽤唯⼀标识ID，也可以任意⾃定义
-        Tracker.INSTANCE.projectName = "bn_" + BuildConfig.APPLICATION_ID.replace(".", "_");
+        //设置应⽤名，可以⽤应⽤唯⼀标识ID， 设置成bn_ + APPNAME （appname由后台告诉你）
+        Tracker.INSTANCE.projectName = "bn_";
         //上报模式，分为4种，具体参⻅下⽂
-        Tracker.INSTANCE.setMode(TrackerMode.DEBUG_TRACK);
+        Tracker.INSTANCE.setMode(TrackerMode.RELEASE);
         //进⾏初始化
         Tracker.INSTANCE.initialize(this);
     }
