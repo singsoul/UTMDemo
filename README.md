@@ -6,7 +6,7 @@ maven { url 'http://nexus.rhinox.cn/repository/maven-public/'}
 ```
 
 ```java
-implementation 'com.boniu.tracker:tracker:1.0.0@aar'
+implementation 'com.boniu.tracker:tracker:1.0.1@aar'
     implementation "com.google.code.gson:gson:2.8.2"
     implementation "com.squareup.okhttp3:okhttp:3.3.1"
     implementation "com.squareup.retrofit2:retrofit:2.2.0"
